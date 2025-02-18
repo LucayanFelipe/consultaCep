@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+.App {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top:15vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  border: solid 2px lime;
+  border-radius: 14px;
+}
+
+.error {
+  color: red;
+}
+
+.loading-spinner {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.address-info {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  color: black;
+  font-size: 20px;
+  background-color: rgb(0, 255, 0);
+  padding: 10px 20px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.7s ease-in-out; 
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.App img {
+  width: 200px;
+  
+}
+
+.App img:hover {
+  height: 200px;
+  width: 170px;
+  padding-left: 8vh;
+  content: url('./assets/mapgirl_trans.png');
+}
